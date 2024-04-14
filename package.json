@@ -1,0 +1,18 @@
+{
+  "name": "dance-website",
+  "version": "1.0.0",
+  "description": "This is most popular website in the world",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mayank Pathak",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.18.3",
+    "mongoose": "^8.2.1",
+    "pug": "^3.0.2"
+  },
+  "devDependencies": {}
+}

@@ -1,0 +1,46 @@
+extends base.pug
+
+block scripts 
+    script(src='/static/index.js')
+
+block style
+    style
+      include ../static/style.css
+
+block content
+    section#introSection
+        div Welcome to Diyank's Dance Academy 
+        div.small  Eat Sleep Dance Repeat
+        
+    section#missionSection
+        h1 mission section 
+        div.card 
+            h4 Dance Perfection
+            div.card-box  
+                div.card-img 
+                    img(src="/static/img/1.png.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe 
+        div.card 
+            h4 Dance the way you like  
+            div.card-box  
+                div.card-img 
+                    img(src="/static/img/2.png.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe 
+        div.card 
+            h4 Expert Teaching  
+            div.card-box  
+                div.card-img 
+                    img(src="/static/img/3.png.jpg")
+                div.card-content
+                    p This is the best dance academy of the universe 
+                
+    section#sponsorSection
+        h1 Our Sponsors 
+        div#sponsors 
+        img(src="/static/img/sp1.jpg", alt="Sponsor Image", class="spImage")
+        img(src="/static/img/sp2.jpg", alt="Sponsor Image", class="spImage")
+        img(src="/static/img/sp3.jpg", alt="Sponsor Image", class="spImage")
+        img(src="/static/img/sp4.jpg", alt="Sponsor Image", class="spImage")
+
